@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="design.css" />
+    <title>Assignment</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <label for="name">Name:</label><span>*</span>
+        <input
+          class="name"
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+        /><br />
+
+        <label>Email:</label><span>*</span>
+        <input
+          class="email"
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <br />
+        <label for="phone">Phone Number:</label><span>*</span>
+        <img
+          src="default.png"
+          alt="carrier"
+          class="carrier"
+          id="carrier-logo"
+        />
+        <input
+          class="phone"
+          type="tel"
+          id="phone"
+          required
+          maxlength="14"
+          minlength="11"
+        /><br />
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
