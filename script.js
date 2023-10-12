@@ -95,6 +95,6 @@ phoneInput.addEventListener("input", function () {
       carrierLogo.src = "logo-4.png";
       break;
     default:
-      carrierLogo.src = "default-logo.png";
+      carrierLogo.src = "default.png";
   }
 });
